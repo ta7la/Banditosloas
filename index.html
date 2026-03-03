@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bandito Slots – Premium Casino Deals</title>
+
+  <link rel="stylesheet" href="./style.css?v=1" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta name="description" content="Premium Casino Deals, Bonus Codes & Slots – Bandito Slots." />
+</head>
+
+<body>
+
+  <!-- Background -->
+  <div class="bg" aria-hidden="true">
+    <canvas id="particles"></canvas>
+    <div class="bg-glow"></div>
+    <div class="bg-lines"></div>
+    <div class="bg-bandit"></div>
+    <div class="bg-vignette"></div>
+  </div>
+
+  <!-- Age Gate -->
+  <div id="ageGate" class="agegate" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="agegate-card">
+      <div class="agegate-top">
+        <div class="agegate-badge">🔞 18+</div>
+        <div class="agegate-title">
+          <h1>Altersbestätigung</h1>
+          <p>Diese Seite enthält Glücksspiel-Inhalte. Bitte bestätige, dass du mindestens 18 Jahre alt bist.</p>
+        </div>
+      </div>
+
+      <div class="agegate-actions">
+        <button id="enterBtn" class="btn btn-primary btn-wide">
+          <i class="fa-solid fa-check"></i> Ich bin 18+
+        </button>
+
+        <button id="leaveBtn" class="btn btn-ghost btn-wide">
+          <i class="fa-solid fa-arrow-left"></i> Seite verlassen
+        </button>
+      </div>
+
+      <div class="agegate-foot">
+        <span>Wir speichern deine Auswahl lokal auf deinem Gerät.</span>
+        <span class="sep">•</span>
+        <span>Spiele verantwortungsvoll.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="pill">🎰 Slots</span>
+        <span class="pill">🔥 Premium Deals</span>
+        <span class="pill outline">✅ Certified from Bandito</span>
+      </div>
+      <div class="topbar-right">
+        <a class="toplink" href="https://banditoslots.com" target="_blank" rel="noopener">
+          <i class="fa-solid fa-globe"></i> banditoslots.com
+        </a>
+        <a class="toplink" href="https://twitch.tv/banditoslots" target="_blank" rel="noopener">
+          <i class="fab fa-twitch"></i> twitch.tv/banditoslots
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+
+      <a class="brand" href="#top" aria-label="Bandito Slots Start">
+        <div class="brand-avatar">
+          <div class="ring"></div>
+          <!-- Ersetze BRAND_AVATAR_URL mit deiner URL -->
+          <img class="avatar" src="https://s1.directupload.eu/images/260303/temp/oj7sznhf.png" alt="Bandito Slots Avatar" />
+          <div class="crown" aria-hidden="true"></div>
+          <div class="smoke" aria-hidden="true"><span></span><span></span><span></span></div>
+        </div>
+
+        <div class="brand-text">
+          <div class="brand-name">Bandito Slots</div>
+          <div class="brand-sub">Premium Casino Deals • Rot/Schwarz</div>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <a class="livepill" href="https://twitch.tv/banditoslots" target="_blank" rel="noopener">
+          <span class="dot" id="liveDot"></span>
+          <span id="liveText">Twitch: Status</span>
+        </a>
+
+        <nav class="socials" aria-label="Social Links">
+          <a href="https://twitch.tv/banditoslots" target="_blank" rel="noopener" aria-label="Twitch"><i class="fab fa-twitch"></i></a>
+          <a href="https://banditoslots.com" target="_blank" rel="noopener" aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="kicker">
+            <span class="kdot"></span>
+            <span>Premium Übersicht • Bonus • Wager • Limits</span>
+          </div>
+
+          <h1>
+            Premium <span>Casino Deals</span><br />
+            NUR FÜR EUCH
+          </h1>
+
+          <p class="lead">
+            Klar, schnell und professionell: Finde die besten Angebote mit wenigen Klicks.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#deals"><i class="fa-solid fa-bolt"></i> Deals ansehen</a>
+            <a class="btn btn-ghost" href="https://banditoslots.com" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i> banditoslots.com</a>
+          </div>
+
+          <div class="trust-row">
+            <div class="trust"><i class="fa-solid fa-shield"></i> <span>Affiliate-Hinweis transparent</span></div>
+            <div class="trust"><i class="fa-solid fa-circle-exclamation"></i> <span>18+ • Spiele verantwortungsvoll</span></div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="featured">
+            <div class="featured-head">
+              <div class="tag"><span class="tagdot"></span> #1 Empfehlung</div>
+              <div class="tag outline">VIP Look</div>
+            </div>
+
+            <div class="featured-body">
+              <div class="feat-title">Top Pick diese Woche</div>
+              <div class="feat-sub">Schneller Vergleich ohne Umwege</div>
+
+              <div class="feat-grid">
+                <div class="feat-stat">
+                  <div class="k">Bonus</div><div class="v">Welcome Package</div><div class="n">Mehrstufig</div>
+                </div>
+                <div class="feat-stat">
+                  <div class="k">Wager</div><div class="v">z.B. 40x</div><div class="n">Standard</div>
+                </div>
+                <div class="feat-stat">
+                  <div class="k">Max Bet</div><div class="v">z.B. 5€</div><div class="n">pro Spin</div>
+                </div>
+                <div class="feat-stat">
+                  <div class="k">Max Bonus</div><div class="v">—</div><div class="n">je nach Casino</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="featured-foot">
+              <a class="btn btn-primary btn-wide" href="#deals"><i class="fa-solid fa-play"></i> Direkt zu den Deals</a>
+              <div class="tiny">T&Cs gelten • Details im Info-Popup</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Deals -->
+<section class="section" id="deals">
+  <div class="container">
+
+    <div class="section-head">
+      <div>
+        <h2>Deal Übersicht</h2>
+        <p>Premium Layout: Featured + Cards (kein Tabellen-Look).</p>
+      </div>
+      <div class="head-actions">
+        <span class="pill">🔎 Schnellvergleich</span>
+        <span class="pill outline">🕒 Live Updates</span>
+      </div>
+    </div>
+
+    <div class="filters">
+      <div class="filter">
+        <div class="label">Kategorie</div>
+        <select>
+          <option>Alle</option>
+          <option>Top Rated</option>
+          <option>Neue Casinos</option>
+        </select>
+      </div>
+
+      <div class="filter">
+        <div class="label">Zahlungsmethoden</div>
+        <select>
+          <option>Alle</option>
+          <option>Crypto</option>
+          <option>Visa/Mastercard</option>
+          <option>PayPal</option>
+        </select>
+      </div>
+
+      <div class="filter">
+        <div class="label">Quick Filter</div>
+        <div class="chips">
+          <button class="chip is-active" type="button">🔥 Top</button>
+          <button class="chip" type="button">🆕 Neu</button>
+          <button class="chip" type="button">🪙 Crypto</button>
+          <button class="chip" type="button">💳 PayPal</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURED -->
+    <article class="deal-featured">
+      <div class="dealbg" aria-hidden="true"></div>
+
+      <div class="deal-left">
+        <div class="deal-brand">
+          <div class="deal-logo">
+            <img src="https://s1.directupload.eu/images/260303/temp/jcrukf4c.png" alt="AlfCasino" loading="lazy">
+          </div>
+          <div>
+            <div class="deal-name">AlfCasino</div>
+            <div class="deal-sub">Willkommenspaket</div>
+          </div>
+        </div>
+
+        <div class="deal-desc">
+          #1 Aktuell Casino - Beste Bonus Angebote.
+        </div>
+
+        <div class="deal-actions">
+          <a class="btn btn-primary" href="https://alfcasino318637.com/de/" target="_blank" rel="noopener">PLAY NOW</a>
+          <a class="btn btn-ghost" href="#" data-details="alfcasino">MORE INFO</a>
+        </div>
+
+        <div class="minirow">
+          <span class="mini">T&Cs apply</span>
+          <span class="mini outline">18+</span>
+        </div>
+      </div>
+
+      <div class="deal-right">
+        <div class="facts">
+          <div class="fact"><div class="k">Bonus</div><div class="v">Welcome Package</div><div class="n">Mehrstufig</div></div>
+          <div class="fact"><div class="k">Wager</div><div class="v">40x</div><div class="n">Standard</div></div>
+          <div class="fact"><div class="k">Max Bet</div><div class="v">5€</div><div class="n">pro Spin</div></div>
+          <div class="fact"><div class="k">Max Bonus</div><div class="v">—</div><div class="n">je nach Level</div></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- GRID (4 CARDS) -->
+    <div class="grid">
+
+      <!-- #2 Jokery -->
+      <article class="card">
+        <div class="card-top">
+          <div class="rank">#2</div>
+          <div class="card-brand">
+            <div class="logo">
+              <img src="https://s1.directupload.eu/images/260303/temp/brk4mtnd.webp" alt="Jokery Casino" loading="lazy">
+            </div>
+            <div>
+              <div class="name">Jokery</div>
+              <div class="sub">Willkommenspaket</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bonus">
+          <div class="k">Bonus</div>
+          <div class="v">1000€ + 250 FS</div>
+          <div class="n">Willkommensangebot</div>
+        </div>
+
+        <div class="rows">
+          <div class="row"><span>Max Bonus</span><b>1000€</b></div>
+          <div class="row"><span>Wager</span><b>x30</b></div>
+          <div class="row"><span>Max Bet</span><b>5€</b></div>
+        </div>
+
+        <div class="card-actions">
+          <a class="btn btn-primary btn-wide"
+             href="https://partners.shinywildpartners.com/v2/text/174/4/11be6163-0d14-11f1-8d87-cad21936ea85/1"
+             target="_blank" rel="noopener">PLAY NOW</a>
+          <a class="btn btn-ghost btn-wide" href="#" data-details="jokery">MORE INFO</a>
+        </div>
+
+        <div class="minirow">
+          <span class="mini">T&Cs apply</span>
+        </div>
+      </article>
+
+      <!-- #3 NeonLuck (NEU statt Coming Soon) -->
+      <article class="card">
+        <div class="card-top">
+          <div class="rank">#3</div>
+          <div class="card-brand">
+            <div class="logo">
+              <img src="https://res.cloudinary.com/casinowebsites/image/upload/casinos/winz.png" alt="Winz Casino" loading="lazy">
+            </div>
+            <div>
+              <div class="name">Winz</div>
+              <div class="sub">200% Bonus</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bonus">
+          <div class="k">Bonus</div>
+          <div class="v">200% bis 500€</div>
+          <div class="n">20% Cashack</div>
+        </div>
+
+        <div class="rows">
+          <div class="row"><span>Max Bonus</span><b>500€</b></div>
+          <div class="row"><span>Wager</span><b>x35</b></div>
+          <div class="row"><span>Max Bet</span><b>3€</b></div>
+        </div>
+
+        <div class="card-actions">
+          <a class="btn btn-primary btn-wide"
+             href="https://winz.io"
+             target="_blank" rel="noopener">PLAY NOW</a>
+          <a class="btn btn-ghost btn-wide" href="#" data-details="Winz.io">MORE INFO</a>
+        </div>
+
+        <div class="minirow">
+          <span class="mini">T&Cs apply</span>
+          <span class="mini outline">Neue Auswahl</span>
+        </div>
+      </article>
+
+      <!-- #4 RedReel (NEU – 4. Casino) -->
+      <article class="card">
+        <div class="card-top">
+          <div class="rank">#4</div>
+          <div class="card-brand">
+            <div class="logo">
+              <img src="https://res.cloudinary.com/casinowebsites/image/upload/casinos/sportuna.png" alt="Sportuna" loading="lazy">
+            </div>
+            <div>
+              <div class="name">Sportuna</div>
+              <div class="sub">100% Bonus</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bonus">
+          <div class="k">Deal</div>
+          <div class="v">Rakeback</div>
+          <div class="n">100% up to 700€</div>
+        </div>
+
+        <div class="rows">
+          <div class="row"><span>Cashback</span><b>15%</b></div>
+          <div class="row"><span>Wager</span><b>x10</b></div>
+          <div class="row"><span>Max Bet</span><b>—</b></div>
+        </div>
+
+        <div class="card-actions">
+          <a class="btn btn-primary btn-wide"
+             href="https://sportuna208073.com/de/"
+             target="_blank" rel="noopener">PLAY NOW</a>
+          <a class="btn btn-ghost btn-wide" href="#" data-details="redreel">MORE INFO</a>
+        </div>
+
+        <div class="minirow">
+          <span class="mini">T&Cs apply</span>
+          <span class="mini outline">Cashback</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+  </main>
+
+  <!-- Modal (optional: dein script.js kann es befüllen) -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" data-close aria-label="Close">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div>
+          <div class="foot-title">Bandito Slots</div>
+          <div class="foot-sub">Premium Casino Deals • Rot/Schwarz</div>
+        </div>
+        <div class="foot-links">
+          <a href="https://twitch.tv/banditoslots" target="_blank" rel="noopener"><i class="fab fa-twitch"></i> Twitch</a>
+          <a href="https://banditoslots.com" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i> Website</a>
+        </div>
+      </div>
+
+      <div class="foot-legal">
+        <p>© 2026 Bandito Slots. Alle Rechte vorbehalten.</p>
+        <p>🔞 18+ Glücksspiel kann süchtig machen. Bitte spiele verantwortungsvoll.</p>
+        <p>Affiliate-Hinweis: Bei Anmeldung über Links kann eine Provision entstehen.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js?v=1"></script>
+</body>
+</html>
